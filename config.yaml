@@ -1,0 +1,78 @@
+baseURL: "https://dandielo.net/"
+languageCode: "en-us"
+title: "Dandielo - Blog"
+theme: "hugo-PaperMod"
+paginate: 5
+
+enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+buildExpored: false
+
+minify:
+  disableXML: true
+  minifyOutput: true
+
+menu:
+  main:
+    - name: IceShard - Engine
+      url: /iceshard/
+      weight: 1
+    - name: Archives
+      url: /archives/
+      weight: 5
+    - name: Tags
+      url: /tags/
+      weight: 10
+
+taxonomies:
+  category: categories
+  tag: tags
+  series: series
+
+params:
+  env: production # to enable google analytics, opengraph, twitter-cards and schema.
+  title: Dandielos block
+  description: 'My personal ideas, findings, posts etc.'
+  author: Dandielo
+
+  # images: "<link or path of image for opengraph, twitter-cards>"
+
+  ShowReadingTime: true
+  ShowShareButtons: false
+  comments: true
+  defaultTheme: auto
+  disableThemeToggle : false
+  disableSpecial1stPost : false
+
+  # profile-mode
+  profileMode:
+    enabled: false # needs to be explicitly set
+    title: ExampleSite
+    # imageUrl: '<img location>'
+    # imageTitle: my image
+    buttons:
+    - name: Posts
+      url: posts
+    - name: Tags
+      url: tags
+
+  # home-info mode
+  homeInfoParams:
+    Title: Welcome traveler!
+    Content: I'm Dandielo, welcome to my little blog!
+
+
+      Currently I'm working on my own game engine which you can find here [IceShard - Engine](/iceshard).
+
+
+      [Contact me](mailto://dandielo@iceshard.net) ?
+
+  socialIcons:
+    - name: github
+      url: 'https://github.com/Dandielo/'
+
+
+  # analytics:
+  #   google:
+  #     SiteVerificationTag: "XYZabc"
