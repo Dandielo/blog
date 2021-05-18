@@ -1,6 +1,6 @@
 baseURL: "https://dandielo.github.io/"
 languageCode: "en-us"
-title: "Dandielo - Blog"
+title: "Digital Cake"
 theme: "hugo-PaperMod"
 paginate: 5
 
@@ -32,8 +32,8 @@ taxonomies:
 
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
-  title: Dandielos block
-  description: 'My personal ideas, findings, posts etc.'
+  title: Digital Cake
+  description: 'A blog about anything, however mostly centered about programming and cooking.'
   author: Dandielo
 
   # images: "<link or path of image for opengraph, twitter-cards>"
@@ -45,28 +45,34 @@ params:
   disableThemeToggle : false
   disableSpecial1stPost : false
 
-  # profile-mode
-  profileMode:
-    enabled: false # needs to be explicitly set
-    title: ExampleSite
-    # imageUrl: '<img location>'
-    # imageTitle: my image
-    buttons:
-    - name: Posts
-      url: posts
-    - name: Tags
-      url: tags
+  # # profile-mode
+  # profileMode:
+  #   enabled: false # needs to be explicitly set
+  #   title: ExampleSite
+  #   # imageUrl: '<img location>'
+  #   # imageTitle: my image
+  #   buttons:
+  #   - name: Posts
+  #     url: posts
+  #   - name: Tags
+  #     url: tags
 
   # home-info mode
   homeInfoParams:
-    Title: Welcome traveler!
-    Content: I'm Dandielo, welcome to my little blog!
+    Title: A different way of sharing
+    Content: >
+      And here I am writing a blog.
+      Something I was never thinking of.
 
 
-      Currently I'm working on my own game engine which you can find here [IceShard - Engine](/iceshard).
+      Just to introduce myself, a self taught programmer, always looking for the next thing to learn.
+      Now I'm at a place where sharing my thoughts might help someone else.
 
 
-      [Contact me](mailto://dandielo@iceshard.net) ?
+      I hope you are going to enjoy the topics and follow my journey.\
+
+
+      -- Dandielo
 
   socialIcons:
     - name: github
