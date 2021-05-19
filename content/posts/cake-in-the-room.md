@@ -107,7 +107,7 @@ With each day not looking at a functions implementation, you will forget how it 
 
 # "What's up with the cake?"
 
-Why did I name this blog "**Digital Cake**"?
+Why did I name this blog "**Bits, Bytes and Cake**"?
 
 I do not really know, probably just for fun :P
 

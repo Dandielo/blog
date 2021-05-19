@@ -32,7 +32,7 @@ taxonomies:
 
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
-  title: Digital Cake
+  title: Bits, Bytes and Cake
   description: 'A blog about anything, however mostly centered about programming and cooking.'
   author: Dandielo
 
