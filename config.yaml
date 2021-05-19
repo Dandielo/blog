@@ -1,6 +1,6 @@
 baseURL: "https://dandielo.github.io/"
 languageCode: "en-us"
-title: "Digital Cake"
+title: "Bits, Bytes and Cake"
 theme: "hugo-PaperMod"
 paginate: 5
 
